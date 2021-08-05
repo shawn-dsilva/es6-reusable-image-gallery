@@ -26,7 +26,6 @@ imgSlide img {
 }
 
 
-/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -44,13 +43,11 @@ imgSlide img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
