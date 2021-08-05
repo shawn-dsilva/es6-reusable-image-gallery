@@ -70,7 +70,7 @@ imgSlide img {
   margin: 1rem auto;
 }
 
-.container, p {
+.container, p, h1 {
   width:50%;
   margin:auto;
 }
@@ -80,6 +80,11 @@ p {
   padding:1rem 0;
 }
 
+h1 {
+  padding:2rem 0;
+  font-size: 40px;
+  text-align:center;
+}
 .fullscreen-btn {
   color: #f2f2f2;
   font-size: 24px;
