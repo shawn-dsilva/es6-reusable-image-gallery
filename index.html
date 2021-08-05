@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Shawn D&#39;silva</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0-1/css/all.css" >
+
+<div id="fullscreen-display" class="fullscreen-dispay-hide">
+  <img style="width: 90%;" src="">
+  <i class="fas fa-times" style="display: none;" onclick="ImageGallery.toggleFullscreenImage()"></i>
+</div>
+
+<div class="container">
+<div id="first" class="gallery-container">
+  
+  <div class="imageSlide" style="display: block;">
+    <div class="numbertext">1 / 3</div>
+        <div class="fullscreen-btn" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2020/05/15/14/03/lake-5173683_960_720.jpg')" src="https://cdn.pixabay.com/photo/2020/05/15/14/03/lake-5173683_960_720.jpg')"><i class="fas fa-expand"></i></div>
+        <img class="imgSlide" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2020/05/15/14/03/lake-5173683_960_720.jpg')" src="https://cdn.pixabay.com/photo/2020/05/15/14/03/lake-5173683_960_720.jpg" style="width:100%" alt=" tail.next = newNode; ">
+    <div class="caption-container">
+        <p id="caption"> A Lake of some kind </p>
+    </div>
+  </div>
+  
+  <div class="imageSlide" style="display: none;">
+    <div class="numbertext">2 / 3</div>
+        <div class="fullscreen-btn" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg')"><i class="fas fa-expand"></i></div>
+        <img class="imgSlide" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg')" src="https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg" style="width:100%" alt=" newNode.previous = tail;">
+    <div class="caption-container">
+        <p id="caption"> fancy foreign parrot </p>
+    </div>
+  </div>
+  
+  <div class="imageSlide" style="display: none;">
+    <div class="numbertext">3 / 3</div>
+        <div class="fullscreen-btn" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg')"><i class="fas fa-expand"></i></div>
+        <img class="imgSlide" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg')" src="https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014_960_720.jpg" style="width:100%" alt=" tail = newNode; size++;">
+    <div class="caption-container">
+        <p id="caption"> grass land </p>
+    </div>
+  </div>
+
+  <a class="prev">❮</a>
+  <a class="next">❯</a>
+  </div>
+  </div>
+<p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
+  ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+  desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+</p>
+
+<div class="container">
+  <div id="second" class="gallery-container">
+    
+    <div class="imageSlide" style="display: block;">
+      <div class="numbertext">1 / 3</div>
+          <div class="fullscreen-btn" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2021/07/18/17/42/waterfall-6476205_960_720.jpg')" src="https://cdn.pixabay.com/photo/2021/07/18/17/42/waterfall-6476205_960_720.jpg')"><i class="fas fa-expand"></i></div>
+          <img class="imgSlide" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2021/07/18/17/42/waterfall-6476205_960_720.jpg')" src="https://cdn.pixabay.com/photo/2021/07/18/17/42/waterfall-6476205_960_720.jpg" style="width:100%" alt=" tail.next = newNode; ">
+      <div class="caption-container">
+          <p id="caption"> A Lake of some kind </p>
+      </div>
+    </div>
+    
+    <div class="imageSlide" style="display: none;">
+      <div class="numbertext">2 / 3</div>
+          <div class="fullscreen-btn" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg')"><i class="fas fa-expand"></i></div>
+          <img class="imgSlide" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg')" src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg" style="width:100%" alt=" newNode.previous = tail;">
+      <div class="caption-container">
+          <p id="caption"> fancy foreign parrot </p>
+      </div>
+    </div>
+    
+    <div class="imageSlide" style="display: none;">
+      <div class="numbertext">3 / 3</div>
+          <div class="fullscreen-btn" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg')"><i class="fas fa-expand"></i></div>
+          <img class="imgSlide" onclick="ImageGallery.toggleFullscreenImage('https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg')" src="https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_960_720.jpg" style="width:100%" alt=" tail = newNode; size++;">
+      <div class="caption-container">
+          <p id="caption"> grass land </p>
+      </div>
+    </div>
+
+  <a class="prev">❮</a>
+  <a class="next">❯</a>
+
+  
+</div>
+</div>
+
+<p>
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
+  content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+  as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions
+   have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

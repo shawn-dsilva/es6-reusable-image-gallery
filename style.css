@@ -1,0 +1,130 @@
+:root {
+  --main-blk-color: #25282b;
+  scroll-behavior: smooth;
+}
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  margin:0!important;
+}
+
+.gallery-container {
+  position: relative;
+  border:5px solid var(--main-blk-color);
+}
+
+.caption-container {
+  text-align: center;
+  background-color: var(--main-blk-color);
+  padding: 2px 16px;
+}
+
+imgSlide img {
+    display:block;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#caption {
+  color: white!important;
+  margin: 1rem auto;
+}
+
+.container, p {
+  width:50%;
+  margin:auto;
+}
+
+p {
+  font-size:20px;
+  padding:1rem 0;
+}
+
+.fullscreen-btn {
+  color: #f2f2f2;
+  font-size: 24px;
+  padding: 8px 12px;
+  position: absolute;
+  cursor:pointer;
+  top: 0;
+  right:0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fullscreen-display-hide {
+  display:none;
+}
+
+.fullscreen-display-hide i {
+  display:none;
+}
+
+.fullscreen-display-show {
+
+  position:fixed; /* takes up whole viewport */
+  left:0; /*snaps div to left*/
+  top:0;/*snaps div to left*/
+  display:flex;
+  z-index:1000;
+  width: 100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.9);
+}
+
+.fullscreen-display-show  img {
+  height: fit-content;
+  margin:auto!important
+}
+.fullscreen-display-show i {
+  display: block;
+  font-size: 3rem;
+  color:white;
+  cursor:pointer;
+  padding:1rem 1.5rem;
+  background-color:#dc3545!important;
+  height: fit-content;
+  border-radius: 10px;
+  margin:0.5rem;
+  position:absolute;
+  right:0;
+}
